@@ -1,0 +1,35 @@
+
+body{
+    background: hsl(240, 18%, 77%);
+    font-size: 26px;
+    font-family: inter;
+}
+
+.coding{
+   margin-top:  93px;
+    padding: 20px;
+    color: hsl(240, 18%, 77%)
+}
+
+.container{
+    padding: 50px;
+}
+
+img{
+ position: relative;
+ right: 30px;
+}
+
+ @media(max-width:768px){
+    img{
+        width: 120%;
+        position: relative;
+        bottom: 400px;
+        
+    }
+    p{
+        text-align: center;
+        position: relative;
+        top: 530px;
+    }
+}
